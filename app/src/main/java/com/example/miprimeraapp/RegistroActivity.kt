@@ -95,7 +95,7 @@ class RegistroActivity : AppCompatActivity() {
             }
 
             if(!cbTerminos.isChecked){
-                Toast.makeText(this, "Debe aceptar los terminos", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Debe aceptar los terminos y condiciones", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
