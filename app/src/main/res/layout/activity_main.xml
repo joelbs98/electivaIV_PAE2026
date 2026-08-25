@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/fondo_app"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/margen_pantalla">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textColor="@color/azul_principal"
+            android:textSize="@dimen/titulo_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvSubtitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/subtitulo"
+            android:textColor="@color/texto_secundario"
+            android:textSize="@dimen/subtitulo_size" />
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/descripcion_icono"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tvUnidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/unidad"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/descripcion"
+            android:textAlignment="center"
+            android:textColor="@color/texto_secundario"
+            android:textSize="@dimen/texto_size" />
+
+        <Button
+            android:id="@+id/btnSaludar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/boton_saludar" />
+
+        <TextView
+            android:id="@+id/tvResultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/mensaje_inicial"
+            android:textAlignment="center"
+            android:textColor="@color/texto_principal"
+            android:textSize="@dimen/texto_size" />
+
+        <TextView
+            android:id="@+id/tvTituloGuia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/guia_titulo"
+            android:textAlignment="center"
+            android:textColor="@color/azul_principal"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/guia_subtitulo"
+            android:textAlignment="center"
+            android:textColor="@color/texto_secundario"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tema_android"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_android"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tema_kotlin"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_kotlin"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tema_xml"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_xml"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tema_views"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_views"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/tema_android"
+            android:textColor="@color/texto_principal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/texto_android"
+            android:textColor="@color/texto_secundario"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnFinalizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="@string/finalizar" />
+
+        <TextView
+            android:id="@+id/tvEstadoLectura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/azul_principal"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDetalle"
+            android:layout_marginTop="30dp"
+            android:text="@string/ir_detalle"/>
+
+    </LinearLayout>
+</ScrollView>

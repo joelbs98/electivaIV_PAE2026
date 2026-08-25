@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">MiPrimeraApp</string>
+
+    <string name="titulo">Desarrollo Móvil</string>
+    <string name="subtitulo">Electiva IV</string>
+    <string name="unidad">Bienvenido a la Unidad 2</string>
+    <string name="descripcion">
+        Aquí comenzaremos a construir nuestras interfaces utilizando XML
+    </string>
+    <string name="boton_saludar">Saludar</string>
+    <string name="mensaje_inicial">
+        Presiona el botón para continuar
+    </string>
+    <string name="mensaje_bienvenida">
+        ¡Bienvenido al Desarrollo Móvil!
+    </string>
+    <string name="descripcion_icono">
+        Icono de la aplicación
+    </string>
+
+    <string name="guia_titulo">Desarrollo Móvil</string>
+    <string name="guia_subtitulo">Guía del estudiante</string>
+    <string name="tema_android">¿Qué es Android?</string>
+    <string name="texto_android">Android es una plataforma para dispositivos moviles que permite ejecutar aplicaciones y utilizar recursos</string>
+    <string name="tema_kotlin">¿Qué es Kotlin?</string>
+    <string name="texto_kotlin">Kotlin es una plataforma para dispositivos moviles que permite ejecutar aplicaciones y utilizar recursos</string>
+    <string name="tema_xml">¿Qué es XML?</string>
+    <string name="texto_xml">XML es una plataforma para dispositivos moviles que permite ejecutar aplicaciones y utilizar recursos</string>
+    <string name="tema_views">¿Qué es Views?</string>
+    <string name="texto_views">Views es una plataforma para dispositivos moviles que permite ejecutar aplicaciones y utilizar recursos</string>
+    <string name="finalizar">Finalizar lectura</string>
+    <string name="lectura_completada">¡Lectura completada correctamente!</string>
+
+    <string name="pantalla_inicio">Pantalla Inicio</string>
+    <string name="descripcion_inicio">
+        Bienvenido a nuestra aplicación de Desarrollo Móvil
+    </string>
+    <string name="ir_detalle">Ir a Detalle</string>
+    <string name="pantalla_detalle">Pantalla Detalle</string>
+    <string name="descripcion_detalle">Esta es nuestra segunda activity</string>
+    <string name="volver">Volver</string>
+
+    <!-- INTENTS EXPLICITO E IMPLICITO-->
+    <string name="titulo_intents">Desarrollo Móvil</string>
+
+    <string name="subtitulo_intents">Clase: Activities e Intents</string>
+
+    <string name="ver_perfil">Ver Perfil</string>
+
+    <string name="abrir_web">Abrir Web</string>
+
+    <string name="llamar">Llamar</string>
+
+    <string name="titulo_perfil">Perfil del Estudiante</string>
+
+    <string name="etiqueta_nombre">Nombre:</string>
+
+    <string name="etiqueta_carrera">Carrera:</string>
+
+    <!--  REGISTRO ACTIVITY -->
+    <string name="registro_titulo">Registro de Estudiante</string>
+
+    <string name="nombre">Nombre</string>
+    <string name="hint_nombre">Ingrese su nombre</string>
+
+    <string name="correo">Correo electrónico</string>
+    <string name="hint_correo">Ingrese su correo</string>
+
+    <string name="modalidad">Modalidad</string>
+    <string name="presencial">Presencial</string>
+    <string name="virtual">Virtual</string>
+
+    <string name="fecha_nacimiento">Fecha de nacimiento</string>
+    <string name="seleccionar_fecha">Seleccionar fecha</string>
+    <string name="fecha_no_seleccionada">Fecha no seleccionada</string>
+
+    <string name="terminos">Acepto los términos y condiciones</string>
+
+    <string name="notificaciones">Recibir notificaciones</string>
+
+    <string name="registrar">Registrar</string>
+
+    <string name="error_nombre">Ingrese su nombre</string>
+    <string name="error_correo">Ingrese su correo electrónico</string>
+
+    <string name="confirmar_registro">Confirmar registro</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+    <string name="registro_exitoso">Registro realizado correctamente</string>
+
+</resources>

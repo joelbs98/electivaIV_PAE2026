@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/main"
+    android:padding="24dp"
+    android:background="@color/fondo_app"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pantalla_detalle"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@color/azul_principal"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descripcion_detalle"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:textColor="@color/texto_secundario"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnVolver"
+        android:layout_marginTop="30dp"
+        android:text="@string/volver"/>
+
+
+</LinearLayout>

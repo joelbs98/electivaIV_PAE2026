@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margen_pantalla">24dp</dimen>
+    <dimen name="titulo_size">28sp</dimen>
+    <dimen name="subtitulo_size">18sp</dimen>
+    <dimen name="texto_size">16sp</dimen>
+</resources>
