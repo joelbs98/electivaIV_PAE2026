@@ -118,4 +118,8 @@
     Electiva IV - Desarrollo Móvil
 </string>
 
+    <!-- RECYCLERVIEW -->
+    <string name="lista_estudiantes">Lista de estudiantes</string>
+    <string name="semestre">Semestre</string>
+
 </resources>
