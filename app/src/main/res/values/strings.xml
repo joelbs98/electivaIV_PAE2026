@@ -89,4 +89,33 @@
 
     <string name="registro_exitoso">Registro realizado correctamente</string>
 
+    <!-- MENU ACTIVITY -->
+    <string name="menu_titulo">Desarrollo Móvil</string>
+
+    <string name="menu_subtitulo">Menús en Android</string>
+
+    <string name="menu_instruccion">
+    Selecciona una opción desde el menú superior
+</string>
+
+    <string name="perfil">Perfil</string>
+
+    <string name="configuracion">Configuración</string>
+
+    <string name="acerca_de">Acerca de</string>
+
+    <string name="mensaje_perfil">
+    Has seleccionado Perfil
+</string>
+
+    <string name="mensaje_configuracion">
+    Has seleccionado Configuración
+</string>
+
+    <string name="titulo_acerca">Acerca de</string>
+
+    <string name="mensaje_acerca">
+    Electiva IV - Desarrollo Móvil
+</string>
+
 </resources>
