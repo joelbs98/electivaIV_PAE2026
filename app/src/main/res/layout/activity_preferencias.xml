@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/fondo_app">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/preferencias_titulo"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/azul_principal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/preferencias_nombre"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/texto_principal" />
+
+    <EditText
+        android:id="@+id/etNombrePreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="@string/preferencias_hint_nombre"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGuardarPreferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/preferencias_guardar" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/preferencias_usuario_guardado"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/texto_principal" />
+
+    <TextView
+        android:id="@+id/tvNombreGuardado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/preferencias_sin_usuario"
+        android:textSize="18sp"
+        android:textColor="@color/texto_secundario" />
+
+</LinearLayout>

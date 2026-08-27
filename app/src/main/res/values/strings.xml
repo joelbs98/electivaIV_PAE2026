@@ -122,4 +122,33 @@
     <string name="lista_estudiantes">Lista de estudiantes</string>
     <string name="semestre">Semestre</string>
 
+    <!-- SHARED PREFERENCES -->
+    <string name="preferencias_titulo">
+    Preferencias de Usuario
+</string>
+
+    <string name="preferencias_nombre">
+    Nombre
+</string>
+
+    <string name="preferencias_hint_nombre">
+    Ingrese su nombre
+</string>
+
+    <string name="preferencias_guardar">
+    Guardar
+</string>
+
+    <string name="preferencias_usuario_guardado">
+    Usuario guardado:
+</string>
+
+    <string name="preferencias_sin_usuario">
+    No existe un usuario guardado
+</string>
+
+    <string name="preferencias_guardado_exitoso">
+    Información guardada correctamente
+</string>
+
 </resources>

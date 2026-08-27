@@ -34,11 +34,13 @@
         <activity
             android:name=".MenuActivity"
             android:exported="false"
-            android:windowSoftInputMode="adjustResize">
-
-        </activity>
+            android:windowSoftInputMode="adjustResize"></activity>
         <activity
             android:name=".EstudiantesActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PreferenciasActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
