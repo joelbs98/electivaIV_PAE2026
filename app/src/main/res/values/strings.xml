@@ -151,4 +151,102 @@
     Información guardada correctamente
 </string>
 
+    <!-- APP SETTINGS -->
+    <string name="config_titulo">
+    Configuración
+</string>
+
+    <string name="config_notificaciones">
+    Recibir notificaciones
+</string>
+
+    <string name="config_sincronizacion">
+    Sincronización automática
+</string>
+
+    <string name="config_modo_oscuro">
+    Modo oscuro
+</string>
+
+    <string name="config_tamano_texto">
+    Tamaño del texto
+</string>
+
+    <string name="config_pequeno">
+    Pequeño
+</string>
+
+    <string name="config_normal">
+    Normal
+</string>
+
+    <string name="config_grande">
+    Grande
+</string>
+
+    <string name="config_restaurar">
+    Restaurar configuración
+</string>
+
+    <string name="config_estado">
+    Configuración lista
+</string>
+
+    <string name="config_actualizada">
+    Configuración actualizada
+</string>
+
+    <string name="config_restaurada">
+    Configuración restaurada
+</string>
+
+    <!-- SQLITE -->
+    <string name="sqlite_titulo">
+    Registro de Estudiantes
+</string>
+
+    <string name="sqlite_id">
+    ID
+</string>
+
+    <string name="sqlite_hint_id">
+    ID para actualizar o eliminar
+</string>
+
+    <string name="sqlite_nombre">
+    Nombre
+</string>
+
+    <string name="sqlite_hint_nombre">
+    Ingrese el nombre
+</string>
+
+    <string name="sqlite_carrera">
+    Carrera
+</string>
+
+    <string name="sqlite_hint_carrera">
+    Ingrese la carrera
+</string>
+
+    <string name="sqlite_insertar">
+    Insertar
+</string>
+
+    <string name="sqlite_consultar">
+    Consultar
+</string>
+
+    <string name="sqlite_actualizar">
+    Actualizar
+</string>
+
+    <string name="sqlite_eliminar">
+    Eliminar
+</string>
+
+    <string name="sqlite_registros">
+    Registros almacenados
+</string>
+
 </resources>
