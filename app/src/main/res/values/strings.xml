@@ -248,5 +248,26 @@
     <string name="sqlite_registros">
     Registros almacenados
 </string>
+    <!-- CONTENT PROVIDERS -->
+
+    <string name="contactos_titulo">
+    Contactos del Dispositivo
+</string>
+
+    <string name="contactos_descripcion">
+    Consulta los contactos almacenados en el dispositivo
+</string>
+
+    <string name="contactos_cargar">
+    Cargar contactos
+</string>
+
+    <string name="contactos_sin_datos">
+    No existen contactos para mostrar
+</string>
+
+    <string name="contactos_permiso_denegado">
+    Se necesita permiso para consultar los contactos
+</string>
 
 </resources>
