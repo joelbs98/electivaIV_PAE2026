@@ -270,4 +270,92 @@
     Se necesita permiso para consultar los contactos
 </string>
 
+    <!-- LOADERS -->
+    <string name="carga_titulo">
+    Carga de Estudiantes
+</string>
+
+    <string name="carga_descripcion">
+    Consulta los estudiantes almacenados en SQLite
+</string>
+
+    <string name="carga_boton">
+    Cargar estudiantes
+</string>
+
+    <string name="carga_espera">
+    Cargando información...
+</string>
+
+    <string name="carga_inicial">
+    Presione el botón para consultar los estudiantes
+</string>
+
+    <string name="carga_error">
+    Error al cargar la información
+</string>
+
+    <!-- COROUTINES -->
+    <string name="descarga_titulo">
+    Descarga de Datos
+</string>
+
+    <string name="descarga_descripcion">
+    Simulación de una tarea en segundo plano
+</string>
+
+    <string name="descarga_iniciar">
+    Iniciar descarga
+</string>
+
+    <string name="descarga_cancelar">
+    Cancelar
+</string>
+
+    <string name="descarga_estado_inicial">
+    Esperando inicio
+</string>
+
+    <string name="descarga_proceso">
+    Descargando...
+</string>
+
+    <string name="descarga_finalizada">
+    Descarga finalizada
+</string>
+
+    <string name="descarga_cancelada">
+    Descarga cancelada
+</string>
+
+    <!-- SERVICES -->
+
+    <string name="servicio_titulo">
+    Servicio Android
+</string>
+
+    <string name="servicio_descripcion">
+    Ejemplo de ejecución mediante un Service
+</string>
+
+    <string name="servicio_iniciar">
+    Iniciar servicio
+</string>
+
+    <string name="servicio_detener">
+    Detener servicio
+</string>
+
+    <string name="servicio_estado_detenido">
+    Estado: Servicio detenido
+</string>
+
+    <string name="servicio_estado_activo">
+    Estado: Servicio ejecutándose
+</string>
+
+    <string name="servicio_logcat">
+    Revise Logcat para observar el contador
+</string>
+
 </resources>
