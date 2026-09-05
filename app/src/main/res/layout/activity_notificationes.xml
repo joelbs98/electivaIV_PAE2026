@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/fondo_app">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/notif_titulo_pantalla"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@color/azul_principal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/notif_descripcion"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@color/texto_secundario" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/notif_titulo"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/texto_principal" />
+
+    <EditText
+        android:id="@+id/etTituloNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notif_hint_titulo"
+        android:inputType="textCapSentences" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/notif_mensaje"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/texto_principal" />
+
+    <EditText
+        android:id="@+id/etMensajeNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/notif_hint_mensaje"
+        android:inputType="textCapSentences"
+        android:minLines="2" />
+
+    <Button
+        android:id="@+id/btnEnviarNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/notif_enviar" />
+
+    <TextView
+        android:id="@+id/tvEstadoNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Esperando notificación"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/texto_secundario" />
+
+</LinearLayout>

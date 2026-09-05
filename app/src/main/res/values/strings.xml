@@ -358,4 +358,82 @@
     Revise Logcat para observar el contador
 </string>
 
+    <!-- NOTIFICACIONES -->
+
+    <string name="notif_titulo_pantalla">
+    Notificaciones
+</string>
+
+    <string name="notif_descripcion">
+    Crear y enviar una notificación Android
+</string>
+
+    <string name="notif_titulo">
+    Título
+</string>
+
+    <string name="notif_hint_titulo">
+    Ingrese el título
+</string>
+
+    <string name="notif_mensaje">
+    Mensaje
+</string>
+
+    <string name="notif_hint_mensaje">
+    Ingrese el mensaje
+</string>
+
+    <string name="notif_enviar">
+    Enviar notificación
+</string>
+
+    <string name="notif_canal_nombre">
+    Recordatorios
+</string>
+
+    <string name="notif_canal_descripcion">
+    Notificaciones de recordatorios de la aplicación
+</string>
+
+    <string name="notif_permiso_denegado">
+    No se concedió permiso para enviar notificaciones
+</string>
+
+    <string name="geo_titulo">
+    Georreferenciación
+</string>
+
+    <string name="geo_descripcion">
+    Ingrese unas coordenadas geográficas
+</string>
+
+    <string name="geo_latitud">
+    Latitud
+</string>
+
+    <string name="geo_longitud">
+    Longitud
+</string>
+
+    <string name="geo_hint_latitud">
+    Ejemplo: -2.1700
+</string>
+
+    <string name="geo_hint_longitud">
+    Ejemplo: -79.9000
+</string>
+
+    <string name="geo_mostrar">
+    Mostrar coordenadas
+</string>
+
+    <string name="geo_abrir_mapa">
+    Abrir en mapa
+</string>
+
+    <string name="geo_resultado_inicial">
+    No se han ingresado coordenadas
+</string>
+
 </resources>
